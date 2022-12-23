@@ -202,14 +202,16 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      作業程式碼，請放在 src 檔案夾。
+      <input type="button" name="back" onclick="parent.location='./src/Timeline.png'" value="按我看圖片">
     </div>
   </div>
 
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。心得報告 100 字。
+      這次的作業比較複雜，大概了解了Sequence有能連接不同動畫的功用，而且可以調整動畫中間過度的程度，使用到了Cinemachine插件，能讓我們放入不同的virtual camera來分鏡，
+      也使用到Dolly Camera軌道攝像機，這邊一直有個地方沒解決，我照著講義的方式在Body的Path Position增加key，但是不會照著我設置的去跑軌道，最後是直接進入cm:Cinemachine Tracked來設置key才起反應，
+      不知道是哪邊預設值可能跟助教不一樣所導致，辛苦助教了。
     </div>
   </div>
 
@@ -225,7 +227,7 @@
         </tr>
         <tr>
           <td rowspan="7" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1" checked></td>
           <td id='m1'>1</td>
           <td>將場景匯入unity</td>
         </tr>
@@ -235,7 +237,7 @@
           <td>將轉檔好的MMD模型匯入unity並建立角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
           <td id='m3'>2</td>
           <td>設置至少三個分鏡</td>
         </tr>
@@ -245,7 +247,7 @@
           <td>使用軌道攝影機至少繞一圈</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox5" checked="checked" ></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox5"></td>
           <td id='m5'>2</td>
           <td>更換其他場景、豐富的運鏡</td>
         </tr>
